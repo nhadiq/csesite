@@ -409,7 +409,7 @@
 <footer class="main-footer bg-four sp-one">
     <div class="container">
         <div class="row">
-            <div class="col-xl-4 col-lg-6 col-sm-12 footer-colmun">
+            <div class="col-xl-6 col-lg-6 col-sm-12 footer-colmun">
                 <div class="footer-clomun footer-about-widget">
                     <div class="footer-logo">
                         <figure>
@@ -426,62 +426,45 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-xl-2 col-lg-6 col-sm-12 footer-colmun">
-                <div class="footer-clomun footer-menu-link">
-                    <div class="sec-title-one pb-one">
-                        <h6>Archives</h6>
-                    </div>                            
-                    <ul>
-                        <li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Janaury 2018</a></li>
-                        <li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>February 2018</a></li>
-                        <li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>March 2018</a></li>
-                        <li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>April 2018</a></li>
-                        <li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>May 2018</a></li>
-                    </ul>
+            <div class="col-xl-6 col-lg-6 col-sm-12 footer-colmun">
+                <div class="footer-clomun footer-about-widget">
+                    <div class="right-side">
+                        <div class="text-title"> 
+                            <h5>Contact form</h5>
+                        </div>
+                        <form id="contact_form" name="contact_form" action="http://html.tonatheme.com/2018/Murcia/sendmail.php" method="post">
+                            <div class="row clearfix">
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="form-group">
+                                        <input type="text" name="form_name" class="form-control" value="" placeholder="Your Name *" required="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="form-group">
+                                        <input type="email" name="form_email" class="form-control" value="" placeholder="Your Email *" required="">
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="form-group">
+                                        <input type="text" name="form_website" class="form-control" value="" placeholder="Website *" required="">
+                                    </div>
+                                </div>
+                                <div class="col-xl-12 col-sm-12">
+                                    <div class="form-group">
+                                        <textarea name="form_message" class="form-control textarea required" placeholder="Type Your Message Here . . ."></textarea>
+                                    </div>
+                                    <div class="form-group form-bottom">
+                                        <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
+                                        <button class="thm-btn bg-clr1" type="submit" data-loading-text="Please wait...">send message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
                 </div>
-            </div>                    
-           
-            <div class="col-xl-3 col-lg-6 col-sm-12 footer-colmun">
-                <div class="footer-clomun footer-gallery-widget">
-                    <div class="sec-title-one pb-one">
-                        <h6>Image Gallery</h6>
-                    </div>
-                    <div class="innar-box">
-                        <div class="row">                        
-                            <div class="col-sm-4">
-                                <figure class="image">
-                                    <a data-fancybox="1" href="images/gallery/1.jpg" class="img-popup"><img src="images/gallery/1.jpg" alt=""></a>
-                                </figure>
-                            </div>
-                            <div class="col-sm-4">
-                                <figure class="image">
-                                    <a data-fancybox="1" href="images/gallery/2.jpg" class="img-popup"><img src="images/gallery/2.jpg" alt=""></a>
-                                </figure>
-                            </div>
-                            <div class="col-sm-4">
-                                <figure class="image">
-                                    <a data-fancybox="1" href="images/gallery/3.jpg" class="img-popup"><img src="images/gallery/3.jpg" alt=""></a>
-                                </figure>
-                            </div>
-                            <div class="col-sm-4">
-                                <figure class="image">
-                                    <a data-fancybox="1" href="images/gallery/4.jpg" class="img-popup"><img src="images/gallery/4.jpg" alt=""></a>
-                                </figure>
-                            </div>
-                            <div class="col-sm-4">
-                                <figure class="image">
-                                    <a href="#"><img src="images/gallery/5.jpg" alt=""></a>
-                                </figure>
-                            </div>
-                            <div class="col-sm-4">
-                                <figure class="image">
-                                    <a data-fancybox="1" href="images/gallery/6.jpg" class="img-popup"><img src="images/gallery/6.jpg" alt=""></a>
-                                </figure>
-                            </div>
-                        </div>                            
-                    </div>
-                </div> 
             </div>
+
+
+            
         </div>
     </div>   
 </footer>
