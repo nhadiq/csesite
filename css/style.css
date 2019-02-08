@@ -5957,6 +5957,28 @@ Main Slider Banner
 .review-form form textarea:focus {
 	border-color: #48c7ec;
 }
+.tablesection{
+	color: #5e6063;
+}
 .ss-co-attainment{
 	text-align: center;
+}
+@media (max-width: 732px){
+	.table1{
+		max-width: 80%!important;
+	}
+	.tablehead{
+		font-size: 12px!important;
+	}
+	.tablerow{
+		font-size: 12px!important;
+	}
+	.peoimage{
+		transform: scale(.9)!important;
+	}
+}
+@media (max-width: 1025px){
+	.peoimage{
+		transform: scale(1)!important;
+	}
 }
