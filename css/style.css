@@ -3583,9 +3583,7 @@ Main Slider Banner
 	display: inline-block;
 	transition: all 500ms ease;
 }
-.paragraph{
-	text-align: justify;
-}
+
 .course-item-one .image-text h6 a:hover {
 	color: #f36371;
 	transition: all 500ms ease;
